@@ -17,7 +17,7 @@ def main():
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     try:
-        client_socket.connect(('localhost', 7777))  # Endereço IP do servidor e porta
+        client_socket.connect(('192.168.1.6', 2222))  # Endereço IP do servidor e porta
     except:
         return print("Não foi possível se conectar ao servidor.")
 
